@@ -41,7 +41,7 @@ include "header.php";
 							<input type="hidden" name="bizOrderIds" value="200004843756017" />
 							<input type="hidden" name="auctionId200004843756017" value="14961119073" />
 							<input type="hidden" name="auctionPictUrl200004843756017" value="i3/641471180/T2XO1zXkxaXXXXXXXX_!!641471180.jpg" />
-							<input type="hidden" name="auctionSku200004843756017" value="颜色分类:灰黑色" />
+							<input type="hidden" name="auctionSku200004843756017" value="颜色分类:浅棕" />
 							<input type="hidden" name="prompt200004843756017" value="亲，你的评价会对其他买家帮助很大，一起分享下吧" />
 							<input type="hidden" name="giftEventId200004843756017" value="0" />
 							<input type="hidden" name="giftDesp200004843756017" value="" />
@@ -54,13 +54,13 @@ include "header.php";
 						<li data-id="200004843756017" class="rate-box st-show-msg-box" data-prompt='亲，你的评价会对其他买家帮助很大，一起分享下吧'>
 							<div class="item-rate-info" data-spm="1000328">
 								<div class="item-detail">
-									<a href="http://trade.taobao.com/trade/detail/trade_snap.htm?trade_id=200004843756017" target='_blank' class="item-d-img"> <img width="110" height="110" src="http://img.taobaocdn.com/bao/uploaded/i3/641471180/T2XO1zXkxaXXXXXXXX_!!641471180.jpg" /> </a>
+									<a href="http://item.taobao.com/item.htm?id=14272958184&" target='_blank' class="item-d-img"> <img width="110" height="110" src="http://img01.taobaocdn.com/bao/uploaded/i1/T1hZCGXhFXXXaJGiIV_020844.jpg" /> </a>
 									<div class="item-title">
-										<a href="http://trade.taobao.com/trade/detail/trade_snap.htm?trade_id=200004843756017" target='_blank' title="特价促销 防雾泳镜  舒漫正品游泳眼镜 男女通用泳镜 硅胶泳镜">特价促销 防雾泳镜  舒漫正品游泳眼镜 男女通用泳镜 硅胶泳镜</a>
+										<a href="http://item.taobao.com/item.htm?id=14272958184&" target='_blank' title="时尚男鞋子男士休闲鞋板鞋潮流男款帆布鞋透气单鞋英伦风格懒人鞋">时尚男鞋子男士休闲鞋板鞋潮流男款帆布鞋透气单鞋英伦风格懒人鞋</a>
 									</div>
 									<ul class="sku">
 										<li>
-											颜色分类:灰黑色
+											颜色分类:浅棕;尺码:41
 										</li>
 									</ul>
 								</div>
@@ -94,6 +94,30 @@ include "header.php";
 									</div>
 								</div>
 								<div class="rate-msg-box">
+
+								    <div class="sizebar">
+								        <label class="size-lbl">平时所穿尺码</label>
+								        <ul data-property="尺码" class="optionList">
+                                            <li data-value="21921:28388"><a href="#"><span>38</span></a></li>
+                                            <li data-value="21921:672"><a href="#"><span>39</span></a></li>
+                                            <li data-value="21921:28389" class="optionList-selected"><a href="#"><span>40</span></a></li>
+                                            <li data-value="21921:28390"><a href="#"><span>41</span></a></li>
+                                            <li data-value="21921:28390"><a href="#"><span>41</span></a></li>
+                                            <li data-value="21921:28391"><a href="#"><span>42</span></a></li>
+                                            <li data-value="21921:28392"><a href="#"><span>43</span></a></li>
+                                        </ul>
+
+								        <label class="feel-lbl">上脚感受</label>
+								        <ul data-property="尺码" class="optionList">
+                                            <li data-value="21921:28388"><a href="#"><span>偏小</span></a></li>
+                                            <li data-value="21921:672"><a href="#"><span>合适</span></a></li>
+                                            <li data-value="21921:28389" class="optionList-selected"><a href="#"><span>偏大</span></a></li>
+                                        </ul>
+
+                                        <a href="#" class="fold-msg-box"><i class="icon-foldcomment"></i>收起评论</a>
+                                        <a href="#" class="show-msg-box" style="display:none"><i class="icon icon-addcomment"></i><span>添加评论</span></a>
+								    </div>
+
 									<div class="bd">
 										<div class="textinput ph-hide">
 											<span class="ph-label"></span>
@@ -104,9 +128,7 @@ include "header.php";
 										</div>
 									</div>
 
-									<div class="ft">
-										<a href="#" class="close-msg-box">收起评论</a>
-									</div>
+                                    <!--<div class="ft"><a href="#" class="close-msg-box">收起评论</a></div>-->
 								</div>
 								<div class='share-box'>
 									<input id="share-rate-200004843756017" name="sharePrivacy200004843756017" value="true" type="checkbox"  class="rate-share"/>
@@ -121,7 +143,7 @@ include "header.php";
 							<input type="hidden" name="bizOrderIds" value="200004843766017" />
 							<input type="hidden" name="auctionId200004843766017" value="14130837577" />
 							<input type="hidden" name="auctionPictUrl200004843766017" value="i2/641471180/T2Yh9BXbxbXXXXXXXX_!!641471180.jpg" />
-							<input type="hidden" name="auctionSku200004843766017" value="颜色分类:蓝色;运动服尺码(非必选):XL（建议49-56KG体重）" />
+							<input type="hidden" name="auctionSku200004843766017" value="颜色分类:黑色;尺码:42" />
 							<input type="hidden" name="prompt200004843766017" value="亲，你的评价会对其他买家帮助很大，一起分享下吧" />
 							<input type="hidden" name="giftEventId200004843766017" value="0" />
 							<input type="hidden" name="giftDesp200004843766017" value="" />
@@ -134,13 +156,13 @@ include "header.php";
 						<li data-id="200004843766017" class="rate-box " data-prompt='亲，你的评价会对其他买家帮助很大，一起分享下吧'>
 							<div class="item-rate-info" data-spm="1000328">
 								<div class="item-detail">
-									<a href="http://trade.taobao.com/trade/detail/trade_snap.htm?trade_id=200004843766017" target='_blank' class="item-d-img"> <img width="110" height="110" src="http://img.taobaocdn.com/bao/uploaded/i2/641471180/T2Yh9BXbxbXXXXXXXX_!!641471180.jpg" /> </a>
+									<a href="http://item.taobao.com/item.htm?spm=a2106.m896.1000384.d119&id=16376372913" target='_blank' class="item-d-img"> <img width="110" height="110" src="http://img04.taobaocdn.com/bao/uploaded/i4/36584162/T2rUyxXf4XXXXXXXXX_!!36584162.jpg_310x310.jpg" /> </a>
 									<div class="item-title">
-										<a href="http://trade.taobao.com/trade/detail/trade_snap.htm?trade_id=200004843766017" target='_blank' title="2012新款保守背心少女泳衣 可爱分体平角学生游泳衣显瘦正品泳装">2012新款保守背心少女泳衣 可爱分体平角学生游泳衣显瘦正品泳装</a>
+										<a href="http://item.taobao.com/item.htm?spm=a2106.m896.1000384.d119&id=16376372913" target='_blank' title="韩版时尚潮流鞋日常休闲男鞋子英伦潮鞋低帮男士帆布鞋男款单鞋">韩版时尚潮流鞋日常休闲男鞋子英伦潮鞋低帮男士帆布鞋男款单鞋</a>
 									</div>
 									<ul class="sku">
 										<li>
-											颜色分类:蓝色;运动服尺码(非必选):XL（建议49-56KG体重）
+											颜色分类:黑色;尺码:42
 										</li>
 									</ul>
 								</div>
@@ -275,8 +297,8 @@ include "header.php";
 					<input type="hidden" name="bizType" value="200" />
 					<input type="hidden" name="dsrHaveDone" value="" />
 					<input type="hidden" name="needRateNum" value="2" />
-					<input type="hidden" name="buyerNick" value="海盗727" />
-					<input type="hidden" name="sellerNick" value="娜美莎" />
+					<input type="hidden" name="buyerNick" value="海盗" />
+					<input type="hidden" name="sellerNick" value="ziaqing" />
 
 					<button type="submit"  class="submit submit-btn" >
 						提交评论

@@ -19,7 +19,9 @@
 						<!-- start vmc js 3.1 -->
 <script src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy-min.js,p/global/1.0/global-min.js,p/global/1.0/header-min.js,apps/ratemanager/common/fb-config-min.js?t=2012072420120513.js"></script><!-- end vmc js 3.1 -->
 
-
+        <!--尺码评价-->
+        <link rel="stylesheet" href="sizeRate.css" />
+        <script src="sizeRate.js"></script>
 				
 		<script src='http://a.tbcdn.cn/s/kissy/??1.2.0/uibase-min.js,1.2.0/component-min.js,1.2.0/flash-min.js,1.2.0/overlay-min.js,gallery/form/1.2/uploader/index-min.js'></script>
 		<script>
@@ -267,12 +269,12 @@ d.getElementsByTagName("head")[0].appendChild(ta);
 <!--店铺详情 START-->
 	    	<ul class="seller-info">
         	<li>
-									<a href="http://store.taobao.com/shop/view_shop.htm?user_number_id=641471180" target="_blank"> 
-						店铺：娜美莎泳衣泳帽泳镜泳裤专营店</a>
+									<a href="http://0500a.taobao.com/" target="_blank">
+						店铺：幸福K8流行男鞋</a>
 							</li>
         	<li>
-    			<span class="seller">卖家：娜美莎</span>
-    			<span data-nick="娜美莎" data-icon="small" class="J_WangWang"></span>
+    			<span class="seller">卖家：ziaqing</span>
+    			<span data-nick="ziaqing" data-icon="small" class="J_WangWang"></span>
     		</li>
         	<li>
 				
