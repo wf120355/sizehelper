@@ -1,15 +1,11 @@
-<?php 
+<?php
 include "header.php";
 ?>
-<div id="reviews" class="J_DetailSection" 
-		data-reviewapi="" 
-		data-reviewcountapi="" 
-		data-listapi="" 
-		data-commonapi="" 
-		data-usefulapi="" style="display: block; ">
+<div id="reviews" class="J_DetailSection" data-reviewapi="" data-reviewcountapi="" data-listapi="" data-commonapi=""
+data-usefulapi="" style="display: block; ">
 	<h4 class="hd" style="display: none; "></h4>
 	<div class="tb-revhd">
-		<div class="tb-r-summary">
+		<div class="tb-r-summary J_Tb_r-summary">
 			<div class="tb-r-score">
 				<span>宝贝与描述相符</span><strong>4.9</strong><span>分</span>
 			</div>
@@ -22,8 +18,12 @@ include "header.php";
 			<!--新添加  宝贝尺码描述-->
 			<div class="tb-r-size clear">
 				<div class="tb-r-size-des">
-					<p>宝贝尺码描述</p>
-					<p class="tb-r-des-total">共1823次描述</p>
+					<p>
+						宝贝尺码描述
+					</p>
+					<p class="tb-r-des-total">
+						共1823次描述
+					</p>
 				</div>
 				<div class="tb-r-comment-scale">
 					<div class="tb-r-comment-wrapper ">
@@ -45,10 +45,39 @@ include "header.php";
 						<span class="tb-r-comment-des">10%买家认为鞋码标准</span>
 					</div>
 				</div>
-				<a id="J_SizeHelperTrigger" class="tb-r-helper-button tb-r-helper-collapse">
-					尺码推荐
-				</a>
+				<a id="J_SizeHelperTrigger" class="tb-r-helper-button"> 尺码推荐 </a>
 			</div>
+		</div>
+		<div id="J_SizeHelperPanel" class="SizeHelperPanel">
+				<div class="SizeHelperSizeWrapper">
+					<lable>
+						您平常所穿
+						<select id="J_SizeHelperSize">
+							<option value="0">尺码</option>
+							<option value="31">31</option>
+							<option value="32">32</option>
+							<option value="33">33</option>
+							<option value="34">34</option>
+							<option value="35">35</option>
+							<option value="36">36</option>
+							<option value="37">37</option>
+							<option value="38">38</option>
+							<option value="39">39</option>
+							<option value="40">40</option>
+							<option value="41">41</option>
+							<option value="42">42</option>
+							<option value="43">43</option>
+							<option value="44">44</option>
+							<option value="45">45</option>
+						</select>
+					</lable>
+					<span class="sizeHelperTips">
+						选择您的尺码，可以查看跟您相似的TA的尺码选择。
+					</span>
+				</div>
+				<div id="J_SizeHelperResult">
+					
+				</div>
 		</div>
 		<div class="tb-r-box">
 			<div class="tb-r-filter">
@@ -678,13 +707,8 @@ include "header.php";
 				</div>
 			</li>
 		</ul>
-		<div id="J_Pagination" class="tb-pagination">
-			<div class="tb-page-bottom">
-				<span class="page-start">上一页</span><span class="page-cur">1</span><a href="#" data-act="page" data-val="2" class="">2</a><a href="#" data-act="page" data-val="2" class="page-next">下一页</a>
-			</div>
-		</div>
 	</div>
 </div>
-<?php 
+<?php
 include "footer.php";
 ?>

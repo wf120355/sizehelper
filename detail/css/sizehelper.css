@@ -1,3 +1,7 @@
+#reviews .tb-r-no-bottom-border{
+	border-bottom: none;
+}
+
 .tb-r-size{
 	position:relative;
 	padding:20px 0 0;
@@ -47,12 +51,30 @@
 	width:76px;
 	height:25px;
 	text-indent: -9999px;	
+	background:url(../images/helper-button-collapse.png);
 }
 
 .tb-r-helper-expand{
 	background:url(../images/helper-button-expand.png);
 }
 
-.tb-r-helper-collapse{
-	background:url(../images/helper-button-collapse.png);
+/*≥ﬂ¥Á√Ê∞Â*/
+.SizeHelperPanel{
+	background: #FBEFE7;
+	border: 1px solid #D7D7D7;
+	border-top: 1px solid #FDDCC9;
+	padding:20px;
+	margin: -10px 0 10px;
+	font-size:14px;
+	display:none;
+}
+
+.SizeHelperPanel .sizeHelperTips{
+	font-size:12px;
+	color:#999;
+	padding-left: 10px;
+}
+
+.SizeHelperPanel.SizeHelperPanelExpand{
+	display:block;
 }
