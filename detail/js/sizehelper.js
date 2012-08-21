@@ -74,7 +74,7 @@ KISSY.ready(function(S){
 	function addComment(data){
 		var div = D.create('<div>'),
 			cnt = D.get('.tb-r-comments');
-		div.innerHTML = S.substitute(TMP, UserData[0]);
+		div.innerHTML = S.substitute(TMP, data);
 		cnt.insertBefore(div.firstChild, cnt.firstChild);
 	}
 	
@@ -156,7 +156,7 @@ KISSY.ready(function(S){
 		for(var i = 0, len = UserData.length; i < len; ++i){
 			if(UserData[i].size == value && UserData[i].feel == 'fit'){
 				UserData[i].buySize == low && ++ret.small;
-				UserData[i].buySize == large && ++ret.large;
+				UserData[i].buySize == large && ++ret.larger;
 				UserData[i].buySize == value && ++ret.fit;
 				++ret.total;
 			}	
@@ -169,6 +169,7 @@ KISSY.ready(function(S){
 		ret.fit = Math.round(ret.fit / ret.total * 100);
 		ret.small = Math.round(ret.small / ret.total * 100);
 		ret.larger = Math.round(ret.larger / ret.total * 100);
+		
 		return ret;
 	}
 	
@@ -267,9 +268,14 @@ KISSY.ready(function(S){
 	});
 	
 	setTotal();
-	
-	window.Test = function(data){
-		console.log( S.substitute(TMP, UserData[0]))
-		addComment(data)
-	}
-})
+	S.Event.on(window, 'message', function(evt){
+		var data = evt.data;
+			val  = parseInt(D.get('#J_SizeHelperSize').value);
+		UserData.push(data);
+		addComment(data);
+		setTotal();
+		if(val){
+			setTotalBySize(parseInt(D.get('#J_SizeHelperSize').value));
+		}
+	});
+});

@@ -1,3 +1,12 @@
+/*for demo*/
+#content #bd{
+	margin:0;
+}	
+
+.grid-s5m0 .main-wrap{
+	margin:0;
+}
+
 #reviews .tb-r-no-bottom-border{
 	border-bottom: none;
 }

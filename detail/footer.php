@@ -56,8 +56,8 @@ var subtype = 4;if(g_config.vdata){subtype=DT.mods.main.getJuType();}
 CPS.trace({type:1,subtype:subtype,itemid:"15388939855",sellerid:"814138238"});
 }catch(e){}
 });</script>
-<script src="js/scalebar.js" type="text/javascript"></script>
-<script src="js/sizehelper.js" type="text/javascript"></script>
+<script src="./detail/js/scalebar.js" type="text/javascript"></script>
+<script src="./detail/js/sizehelper.js" type="text/javascript"></script>
 <script>g_config.endTime=+new Date;</script> 
 </body>
 </html>

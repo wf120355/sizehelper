@@ -31,7 +31,7 @@ surl:"http://upload.taobao.com", murl:"http://meal.taobao.com" };g_config.idata=
    <link rel="stylesheet" href="http://a.tbcdn.cn/??p/shop/1.0/mods/s/shop-mods-min.css,p/shop/1.0/mods/o/second-mods-min.css?t=20120724"/>
   <!-- start vmc css 3.1-->
 <link rel="stylesheet" href="http://a.tbcdn.cn/??p/global/1.0/global-min.css,p/detail/20120816/base-min.css,p/detail/20120816/mods/tabbar/tabbar-min.css,p/detail/20120816/mods/head/head-min.css,p/detail/20120816/mods/foot/foot-min.css,p/detail/20120816/mods/sku/sku-min.css,p/detail/20120816/mods/desc/desc-min.css,p/detail/20120816/mods/other/other-min.css?t=20120724201206211414.css" /><!-- end vmc css 3.1-->
-<link rel="stylesheet" href="css/sizehelper.css" />
+<link rel="stylesheet" href="./detail/css/sizehelper.css" />
    <link rel="stylesheet" href="http://a.tbcdn.cn/app/shop/skin/red.css?1.1.css" /><style>html {
 background-repeat:repeat;
 }

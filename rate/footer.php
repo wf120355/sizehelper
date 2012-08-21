@@ -90,8 +90,8 @@
 
 
 		<!--³ßÂëÆÀ¼Û-->
-        <link rel="stylesheet" href="sizerate.css" />
-        <script src="sizerate.js"></script>
+        <link rel="stylesheet" href="./rate/sizerate.css" />
+        <script src="./rate/sizerate.js"></script>
 
 	</body>
 </html>
