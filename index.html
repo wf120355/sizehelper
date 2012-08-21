@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="gbk"/>
+		<title>尺码评价展示页面</title>
+		<!--<link rel="stylesheet" href="css_example_url"/>-->
+		<!--<script src="js_example_url"></script>-->
+		<style type="text/css">
+			body {
+				width: 1800px;
+			}
+			h1 {
+				display: inline-block;
+				width: 500px;
+				margin-left: 350px;
+			}
+			.rateFrame {
+				width: 980px;
+				height: 1200px;
+				float: left;
+				border-right: 5px solid #73B9FF;
+				padding:5px;
+			}
+			.detailFrame {
+				width: 750px;
+				height: 1200px;
+				float: left;
+				margin: 0 auto;
+				padding:15px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="size-title">
+			<h1>宝贝评价</h1>
+			<h1>宝贝详情</h1>
+		</div>
+		<iframe src="rate.php" class="rateFrame" frameborder="0" scrolling="no"></iframe>
+		<iframe src="main.php#reviews" id="J_Detail" class="detailFrame" frameborder="0" scrolling="no"></iframe>
+	</body>
+</html>
