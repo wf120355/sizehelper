@@ -26,13 +26,13 @@ data-usefulapi="" style="display: block; ">
 					</p>
 				</div>
 				<div class="tb-r-comment-scale">
-					<div class="tb-r-comment-wrapper ">
+					<div class="tb-r-comment-wrapper tb-r-max-wrapper">
 						<div class="J_ScaleBar">
 							<div data-value="80" data-total="100"></div>
 						</div>
-						<span class="tb-r-comment-des tb-r-comment-max">80%买家认为鞋码标准</span>
+						<span class="tb-r-comment-des">80%买家认为鞋码标准</span>
 					</div>
-					<div class="tb-r-comment-wrapper">
+					<div class="tb-r-comment-wrapper tb-r-normal-wrapper">
 						<div class="J_ScaleBar">
 							<div data-value="10" data-total="100"></div>
 						</div>
@@ -42,42 +42,70 @@ data-usefulapi="" style="display: block; ">
 						<div class="J_ScaleBar">
 							<div data-value="10" data-total="100"></div>
 						</div>
-						<span class="tb-r-comment-des">10%买家认为鞋码标准</span>
+						<span class="tb-r-comment-des tb-r-min-wrapper">10%买家认为鞋码标准</span>
 					</div>
 				</div>
 				<a id="J_SizeHelperTrigger" class="tb-r-helper-button"> 尺码推荐 </a>
 			</div>
 		</div>
 		<div id="J_SizeHelperPanel" class="SizeHelperPanel">
-				<div class="SizeHelperSizeWrapper">
-					<lable>
-						您平常所穿
-						<select id="J_SizeHelperSize">
-							<option value="0">尺码</option>
-							<option value="31">31</option>
-							<option value="32">32</option>
-							<option value="33">33</option>
-							<option value="34">34</option>
-							<option value="35">35</option>
-							<option value="36">36</option>
-							<option value="37">37</option>
-							<option value="38">38</option>
-							<option value="39">39</option>
-							<option value="40">40</option>
-							<option value="41">41</option>
-							<option value="42">42</option>
-							<option value="43">43</option>
-							<option value="44">44</option>
-							<option value="45">45</option>
-						</select>
-					</lable>
-					<span class="sizeHelperTips">
-						选择您的尺码，可以查看跟您相似的TA的尺码选择。
-					</span>
+			<div class="SizeHelperSizeWrapper">
+				<lable>
+					您平常所穿
+					<select id="J_SizeHelperSize">
+						<option value="0">尺码</option>
+						<option value="31">31码</option>
+						<option value="32">32码</option>
+						<option value="33">33码</option>
+						<option value="34">34码</option>
+						<option value="35">35码</option>
+						<option value="36">36码</option>
+						<option value="37">37码</option>
+						<option value="38">38码</option>
+						<option value="39">39码</option>
+						<option value="40">40码</option>
+						<option value="41">41码</option>
+						<option value="42">42码</option>
+						<option value="43">43码</option>
+						<option value="44">44码</option>
+						<option value="45">45码</option>
+
+					</select>
+				</lable>
+				<span class="sizeHelperTips"> 选择您的尺码，可以查看跟您相似的TA的尺码选择。 </span>
+			</div>
+			<div id="J_NoSize" class="SizeHelperNoSize">
+			
+			</div>
+			<div id="J_SizeHelperResult" class="sh-result-panel">
+				<div class="sh-max-scale sh-scale">
+					<span class="sh-size J_Sh-size">37码</span>
+					<div class="sh-scale-wrapper">
+						<div class="J_ScaleBar">
+							<div data-value="80" data-total="100"></div>
+						</div>
+					</div>
+					<span class="sh-scale-tips">80%平常穿37码的买家购买了37码，并认为合适</span>
 				</div>
-				<div id="J_SizeHelperResult">
-					
+				<div class="sh-normal-scale sh-scale">
+					<span class="sh-size J_Sh-size">38码</span>
+					<div class="sh-scale-wrapper">
+						<div class="J_ScaleBar">
+							<div data-value="10" data-total="100"></div>
+						</div>
+					</div>
+					<span class="sh-scale-tips">10%平常穿37码的买家购买了38码，并认为合适</span>
 				</div>
+				<div class="sh-min-scale sh-scale">
+					<span class="sh-size J_Sh-size">39码</span>
+					<div class="sh-scale-wrapper">
+						<div class="J_ScaleBar">
+							<div data-value="10" data-total="100"></div>
+						</div>
+					</div>
+					<span class="sh-scale-tips">10%平常穿37码的买家购买了39码，并认为合适</span>
+				</div>
+			</div>
 		</div>
 		<div class="tb-r-box">
 			<div class="tb-r-filter">
@@ -134,133 +162,6 @@ data-usefulapi="" style="display: block; ">
 			<li tabindex="0" hidefocus="true" class="tb-r-comment">
 				<div class="tb-r-buyer">
 					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/NzU5NzY0NTA5/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=759764509&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/NzU5NzY0NTA5/view/ta_taoshare_list.htm?redirect=fa" title="爱你爱你发发发" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">爱你爱你发...</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=759764509&amp;rater=1" title="41-91个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_3.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							我和朋友一人买了一双大小都很合适 穿着舒服  质量看上去还不错  发货速度也蛮快的  老板很热情
-							<br>
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.17]</span><span class="tb-r-sku">颜色分类:2258白灰色&nbsp;&nbsp;尺码:42</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19895785466">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<img width="40" height="40" src="http://a.tbcdn.cn/app/sns/img/default/avatar-40.png">
-					</div>
-					<div class="tb-r-nick">
-						<span>一***0(匿名)</span>
-					</div>
-					<div class="tb-r-rank">
-						<img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_1.gif?t=20111027">
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							鞋子真的是超值的，质量很好，穿着也舒服。快递非常快的。而且价钱还便宜，呵呵，这次赚了 ，谢谢卖家，下次还会来的
-							<br>
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.06.15]</span><span class="tb-r-sku">颜色分类:白黑色&nbsp;&nbsp;尺码:39</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19026431621">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/NDQxNjEwNzIx/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=441610721&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/NDQxNjEwNzIx/view/ta_taoshare_list.htm?redirect=fa" title="zuohandan" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">zuoha...</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=441610721&amp;rater=1" title="11-41个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_2.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							鞋子很漂亮 也穿的舒适 卖家服务态度特别好 发货速度 两天就到了 大大顶起
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.13]</span><span class="tb-r-sku">颜色分类:2432蓝黑色&nbsp;&nbsp;尺码:41</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19800447405">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/ODEzODUxODQ3/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=813851847&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/ODEzODUxODQ3/view/ta_taoshare_list.htm?redirect=fa" title="快乐一族8845" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">快乐一族8...</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=813851847&amp;rater=1" title="11-41个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_2.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							鞋子不错，和图片一样   穿着很透气，物流也还可以，我会再次光顾本店的。
-							<br>
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.06.16]</span><span class="tb-r-sku">颜色分类:2432黄绿色&nbsp;&nbsp;尺码:41</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19073387558">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
 						<a href="http://wow.taobao.com/u/MTAyOTIzMTE2/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=102923116&amp;width=40&amp;height=40&amp;type=sns"></a>
 					</div>
 					<div class="tb-r-nick">
@@ -276,7 +177,10 @@ data-usefulapi="" style="display: block; ">
 							鞋子很好，穿着很合脚很舒服。全五分！！
 						</div>
 						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.20]</span><span class="tb-r-sku">颜色分类:2258白灰色&nbsp;&nbsp;尺码:44</span>
+							<span class="tb-r-date">[2012.07.20]</span>
+							<span class="tb-r-sku">颜色分类:2258白灰色&nbsp;&nbsp;尺码:38</span>
+							<span class="tb-r-usual">（平时穿38码）</span>
+							<span class="tb-r-feel">&nbsp;&nbsp;&nbsp;&nbsp;上脚感受：合适</span>
 						</div>
 					</div>
 					<div class="tb-r-act">
@@ -285,68 +189,6 @@ data-usefulapi="" style="display: block; ">
 								提交中...
 							</div>
 							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19968655187">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/NzA4NTY3NDY=/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=70856746&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/NzA4NTY3NDY=/view/ta_taoshare_list.htm?redirect=fa" title="zhongzhanchi" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">zhong...</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=70856746&amp;rater=1" title="151-251个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_5.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							老板太热情了，买完之后还问合不合脚，快递速度也快，好评
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.05.30]</span><span class="tb-r-sku">颜色分类:白黑色&nbsp;&nbsp;尺码:44</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="18591829625">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<img width="40" height="40" src="http://a.tbcdn.cn/app/sns/img/default/avatar-40.png">
-					</div>
-					<div class="tb-r-nick">
-						<span>长***2(匿名)</span>
-					</div>
-					<div class="tb-r-rank">
-						<img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_1.gif?t=20111027">
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							很好的鞋子，样式质量都不错，给全五分了
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.27]</span><span class="tb-r-sku">颜色分类:2432黄绿色&nbsp;&nbsp;尺码:41</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="20142170767">有用<span class="tb-r-ucount">(0)</span> </a>
 						</div>
 					</div>
 				</div>
@@ -366,10 +208,13 @@ data-usefulapi="" style="display: block; ">
 				<div class="tb-r-bd">
 					<div class="tb-r-body">
 						<div class="tb-r-cnt">
-							物流很快，下次再来
+							鞋子有点小~~
 						</div>
 						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.15]</span><span class="tb-r-sku">颜色分类:2432黄绿色&nbsp;&nbsp;尺码:40</span>
+							<span class="tb-r-date">[2012.07.15]</span>
+							<span class="tb-r-sku">颜色分类:2432黄绿色&nbsp;&nbsp;尺码:40</span>
+							<span class="tb-r-usual">（平时穿40码）</span>
+							<span class="tb-r-feel">&nbsp;&nbsp;&nbsp;&nbsp;上脚感受：偏小</span>
 						</div>
 					</div>
 					<div class="tb-r-act">
@@ -378,37 +223,6 @@ data-usefulapi="" style="display: block; ">
 								提交中...
 							</div>
 							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19827632895">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<img width="40" height="40" src="http://a.tbcdn.cn/app/sns/img/default/avatar-40.png">
-					</div>
-					<div class="tb-r-nick">
-						<span>东***肉(匿名)</span>
-					</div>
-					<div class="tb-r-rank">
-						<img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_3.gif?t=20111027">
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							非常漂亮，舒服。以后买鞋就找你家了。
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.06.22]</span><span class="tb-r-sku">颜色分类:2258白蓝色&nbsp;&nbsp;尺码:41</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19226893452">有用<span class="tb-r-ucount">(0)</span> </a>
 						</div>
 					</div>
 				</div>
@@ -431,7 +245,10 @@ data-usefulapi="" style="display: block; ">
 							我们一起买了好几双，都很满意，需要在来。
 						</div>
 						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.13]</span><span class="tb-r-sku">颜色分类:2432黄绿色&nbsp;&nbsp;尺码:41</span>
+							<span class="tb-r-date">[2012.07.13]</span>
+							<span class="tb-r-sku">颜色分类:2432黄绿色&nbsp;&nbsp;尺码:41</span>
+							<span class="tb-r-usual">（平时穿41码）</span>
+							<span class="tb-r-feel">&nbsp;&nbsp;&nbsp;&nbsp;上脚感受：合适</span>
 						</div>
 					</div>
 					<div class="tb-r-act">
@@ -440,134 +257,6 @@ data-usefulapi="" style="display: block; ">
 								提交中...
 							</div>
 							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19786537545">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/MjE5NTQyMjc2/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=219542276&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/MjE5NTQyMjc2/view/ta_taoshare_list.htm?redirect=fa" title="" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">王容333</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=219542276&amp;rater=1" title="41-91个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_3.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							不错，质量没得话说，下次还来光顾
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.25]</span><span class="tb-r-sku">颜色分类:2258白蓝色&nbsp;&nbsp;尺码:41</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="20102289427">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/NzQ1NDQxNDgx/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=745441481&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/NzQ1NDQxNDgx/view/ta_taoshare_list.htm?redirect=fa" title="" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">俊好888</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=745441481&amp;rater=1" title="91-151个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_4.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							鞋子做工精细，主要是舒适度好，老板态度热情，还会在来的，，
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.05.07]</span><span class="tb-r-sku">颜色分类:白蓝色&nbsp;&nbsp;尺码:41</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="17885341029">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<img width="40" height="40" src="http://a.tbcdn.cn/app/sns/img/default/avatar-40.png">
-					</div>
-					<div class="tb-r-nick">
-						<span>a***i(匿名)</span>
-					</div>
-					<div class="tb-r-rank">
-						<img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_3.gif?t=20111027">
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							卖家服务很好，物流也快，也刚合我的脚，东西也不错，虽然有点小缺陷，但算不上影响，好评
-							<br>
-							帮别人买的，听说合适
-							<br>
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.29]</span><span class="tb-r-sku">颜色分类:9002白色&nbsp;&nbsp;尺码:41</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="20205423447">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/NzU5NzY0NTA5/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=759764509&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/NzU5NzY0NTA5/view/ta_taoshare_list.htm?redirect=fa" title="爱你爱你发发发" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">爱你爱你发...</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=759764509&amp;rater=1" title="41-91个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_3.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							我和朋友一人买了一双大小都很合适 穿着舒服  质量看上去还不错  发货速度也蛮快的  老板很热情
-							<br>
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.17]</span><span class="tb-r-sku">颜色分类:2432蓝黑色&nbsp;&nbsp;尺码:40</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19895785498">有用<span class="tb-r-ucount">(0)</span> </a>
 						</div>
 					</div>
 				</div>
@@ -590,7 +279,10 @@ data-usefulapi="" style="display: block; ">
 							查了下 是 正品 很好 很喜欢
 						</div>
 						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.05.07]</span><span class="tb-r-sku">颜色分类:白蓝色&nbsp;&nbsp;尺码:40</span>
+							<span class="tb-r-date">[2012.05.07]</span>
+							<span class="tb-r-sku">颜色分类:白蓝色&nbsp;&nbsp;尺码:40</span>
+							<span class="tb-r-usual">（平时穿41码）</span>
+							<span class="tb-r-feel">&nbsp;&nbsp;&nbsp;&nbsp;上脚感受：合适</span>
 						</div>
 						<div class="tb-r-append">
 							<b class="tb-r-arrow-up"></b><b class="tb-r-arrow-up tb-r-arrow-up-top"></b>
@@ -608,100 +300,6 @@ data-usefulapi="" style="display: block; ">
 								提交中...
 							</div>
 							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="17884247571">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<img width="40" height="40" src="http://a.tbcdn.cn/app/sns/img/default/avatar-40.png">
-					</div>
-					<div class="tb-r-nick">
-						<span>a***i(匿名)</span>
-					</div>
-					<div class="tb-r-rank">
-						<img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_3.gif?t=20111027">
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							质量非常好，包装的也很好 买家超好，客服服务的很周到。用了好几天了今天才评价的，相信我没错的。以后一定还会来的！！！
-							<br>
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.07]</span><span class="tb-r-sku">颜色分类:2432黄绿色&nbsp;&nbsp;尺码:39</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19619113907">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/NzQ5ODUxOTA3/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=749851907&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/NzQ5ODUxOTA3/view/ta_taoshare_list.htm?redirect=fa" title="" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">陈要钱钱钱</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=749851907&amp;rater=1" title="41-91个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_3.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							质量蛮好，喜欢；；
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.06.20]</span><span class="tb-r-sku">颜色分类:2258白灰色&nbsp;&nbsp;尺码:42</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="19173192100">有用<span class="tb-r-ucount">(0)</span> </a>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li tabindex="0" hidefocus="true" class="tb-r-comment">
-				<div class="tb-r-buyer">
-					<div class="tb-r-avatar">
-						<a href="http://wow.taobao.com/u/MjE5NTQyMjc2/view/ta_taoshare_list.htm?redirect=fa" target="_blank" class="tb-action" data-act="sendclick" data-val="12.18"> <img width="40" height="40" data-act="sns" data-val="img" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=219542276&amp;width=40&amp;height=40&amp;type=sns"></a>
-					</div>
-					<div class="tb-r-nick">
-						<a href="http://wow.taobao.com/u/MjE5NTQyMjc2/view/ta_taoshare_list.htm?redirect=fa" title="" target="_blank" class="tb-action" data-act="sendclick" data-val="12.17">王容333</a>
-					</div>
-					<div class="tb-r-rank">
-						<a class="tb-action" data-act="sendclick" data-val="12.16" href="http://rate.taobao.com/rate.htm?user_id=219542276&amp;rater=1" title="41-91个买家信用积分，请点击查看详情" target="_blank"> <img src="http://a.tbcdn.cn/sys/common/icon/rank_s/b_red_3.gif?t=20111027"> </a>
-					</div>
-				</div>
-				<div class="tb-r-bd">
-					<div class="tb-r-body">
-						<div class="tb-r-cnt">
-							鞋子非常好，很喜欢
-						</div>
-						<div class="tb-r-info">
-							<span class="tb-r-date">[2012.07.25]</span><span class="tb-r-sku">颜色分类:2258白红色&nbsp;&nbsp;尺码:43</span>
-						</div>
-					</div>
-					<div class="tb-r-act">
-						<div class="tb-r-useful   tb-r-useful-zero">
-							<div class="tb-r-msg">
-								提交中...
-							</div>
-							<a href="#" class="tb-r-normal tb-useful-btn tb-action" title="有0人认为此评论有用" data-act="markuseful" data-val="20102289363">有用<span class="tb-r-ucount">(0)</span> </a>
 						</div>
 					</div>
 				</div>

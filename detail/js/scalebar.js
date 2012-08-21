@@ -133,8 +133,27 @@
 		setValue: function(v){
 			var config = this._config;
 			(v > config.total) && (v = config.total);
-			config.srcNode.style.width = v / config.total * config.width + 'px';
 			config.value = v;
+			config._valueNode.style.width = v / config.total * config.width + 'px';
+			S.DOM.attr(config._valueNode, 'data-value', v);
+			
+		},
+		setTotal: function(v){
+			var config = this._config;
+			config.total = v;
+			if(config.value > v){
+				config.value = v;
+				S.DOM.attr(config._valueNode, 'data-value', v);
+			}
+			config._valueNode.style.width = config.value / v * config.width + 'px';
+			S.DOM.attr(config._valueNode, 'data-total', v);
+		},
+		refresh: function(value, total){
+			var config = this._config;
+			(value > total) && (value = total);
+			config.value = value;
+			config.total = total;
+			config._valueNode.style.width = value / value * config.width + 'px';
 		},
 		getValue: function(){
 			return config.value;

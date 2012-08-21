@@ -21,7 +21,7 @@
 .tb-r-comment-scale{
 	width:350px;
 	float:left;
-	margin-top:-20px;
+	margin-top:-10px;
 	margin-left: 20px;
 	border-left:1px solid #E9E9E9;
 }
@@ -30,13 +30,17 @@
 	margin:20px 0;
 }
 
+.tb-r-comment-wrapper.tb-r-max-wrapper{
+	margin-top:10px;
+}
+
 .tb-r-comment-des{
 	float:left;
 	margin-top: -20px;
 	margin-left: 150px;
 }
 
-.tb-r-comment-max{
+.tb-r-max-wrapper .tb-r-comment-des{
 	color:#FE6E1B;
 	font-size:14px;
 	font-weight:bold;
@@ -77,4 +81,70 @@
 
 .SizeHelperPanel.SizeHelperPanelExpand{
 	display:block;
+}
+
+
+/*尺寸推荐结果面板*/
+.sh-result-panel{
+	font-size:12px;
+	padding-top:10px;
+	overflow:hidden;
+}
+
+.sh-scale{
+	padding-left:65px;
+	/*padding-bottom:18px;*/
+	overflow:hidden;
+}
+
+.sh-size{
+	float:left;
+	padding-right:20px;
+	padding-top:14px;
+}
+
+.sh-max-scale{
+	background:url(../images/shoes-large-max.png) no-repeat 0 22px;
+}
+
+.sh-min-scale{
+	background:url(../images/shoes-large-min.png) no-repeat 0 14px;
+}
+
+.sh-normal-scale{
+	background:url(../images/shoes-large-normal.png) no-repeat 0 14px;
+}
+
+
+.sh-max-scale .sh-size{
+	padding-top:22px;
+	color:#FF5E00;
+}
+
+.sh-scale-wrapper{
+	float:left;
+	padding: 22px 10px 10px 0;
+	margin-top:-10px;
+	border-left: 1px solid #E4E4E4;
+}
+
+.sh-max-scale .sh-scale-wrapper{
+	margin-top:10px;
+	padding-top:10px;
+}
+
+.sh-scale-tips{
+	float:left;
+	padding:12px 0 0 24px;
+}
+
+.sh-max-scale .sh-scale-tips{
+	float:left;
+	padding-top:20px;
+}
+
+.SizeHelperNoSize{
+	display:none;
+	padding-top:20px;
+	color:#FF5E00;
 }
